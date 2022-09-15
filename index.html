@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shop for Beauty Products</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mingzat&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Stylesheet.css" rel="stylesheet">
+<link rel="stylesheet" href="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\css\all.css">
+<style>
+.sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.wide {font-family: "Montserrat", sans-serif;}
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+<div class="search-box">
+    <input type="text" placeholder="Type to search..."/>
+    <div class="search-btn">
+      <i class="fas fa-search"></i>
+    </div>
+    
+    <div class="cancel-btn">
+      <i class="fas fa-times"></i>
+    </div>
+</div>
+<div class="font-header">
+    <span>ALL NATURAL HEALTH & BEAUTY BENEFITS FOR YOU & YOUR FAMILY!</span>
+  </div>
+<i class="fa-solid fa-cart-shopping"></i>
+</div>
+
+<div class="content">
+<!-- Sidebar/menu -->
+<div class="sidebar" style="font-weight:bold">
+<nav style="z-index:3;width:200px">
+<img src = "D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Images\Logo.png" alt = "Bloom" width = "55%">
+<div class="container">
+<div class="scrollbar">
+    <a href="#" class="bar-item">Body Lotion</a>
+    <a href="#" class="bar-item">Body Spray</a>
+    <a href="#" class="bar-item">Face Wash</a>
+    <a href="#" class="bar-item">Face Cream</a>
+    <a href="#" class="bar-item">Nail Polish</a> 
+	<a href="#" class="bar-item">Cosmetic Bag</a>
+	<a href="#" class="bar-item">T-Shirt</a>
+	<div class="dropdown-container">
+    <a href="#"class="bar-item">Lipstick
+	<i style="font-size:5px" class="fa-caret-down"></i>
+    </a> <br>
+	<div class="dropdown-content">
+      <a href="#" class="bar-item">Matte</a>
+      <a href="#" class="bar-item">Satin</a>
+      <a href="#" class="bar-item">Glossy</a>
+      <a href="#" class="bar-item">Creamy</a>
+    </div>
+ </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+  <a href="#footer" class="bar-item">Contact</a> 
+  <a href="javascript:void(0)" class="bar-item" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="bar-item">Subscribe</a>
+  </div>
+  </div>
+ </nav>
+</div>
+
+<!-- Middle Section -->
+<div class="middle">
+<div class="slideshow-container">
+ 
+  <!-- Full-width images with number and caption text -->
+  
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Images\Bloom_Cover.png">
+    <div class="text">"Choose products that support your wellness and help you feel gorgeous"</div>
+  </div> 
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Images\Bloom_Products.png">
+    <div class="text">"Healthy skin is a reflection of overall wellness"</div>
+  </div>
+
+  <!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#8249;</a>
+  <a class="next" onclick="plusSlides(1)">&#8250;</a>
+  
+<div class="pagedown">
+  
+<hr style="width:100%;height:3px;background-color:blue;">
+
+<h2 style="font-size:32px;line-height:1;text-align:center">Shop By SKIN TYPE</h2>
+
+<img width="480" height="320" src="https://www.soilscents.com/wp-content/uploads/2022/07/500x500_06.jpg" alt="Dry Skin">
+<img width="480" height="320" src="https://www.soilscents.com/wp-content/uploads/2022/07/500x500_04.jpg" alt="Normal Skin">   
+<img width="480" height="320" src="https://www.soilscents.com/wp-content/uploads/2022/07/500x500_05.jpg" alt="Oily Skin">
+
+<!-- Subscribe section -->
+  <div class="subscribe">
+    <h1>SUBSCRIBE</h1>
+    <p>To get special offers and VIP treatment:</p>
+    <p><input class="Email-box" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button class="btn" type="button">Subscribe</button>
+  </div>
+
+<!-- Footer -->
+<div>
+  <footer>
+        <div class="col s4">
+        <h2>Contact</h2>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="input" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="input" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="input" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="input" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+
+      <div class="col s4">
+        <h2>About</h2>
+        <p><a href="#" style="text-decoration:none;">About us</a></p>
+        <p><a href="#" style="text-decoration:none;">We're hiring</a></p>
+        <p><a href="#" style="text-decoration:none;">Support</a></p>
+        <p><a href="#" style="text-decoration:none;">Find store</a></p>
+        <p><a href="#" style="text-decoration:none;">Shipment</a></p>
+        <p><a href="#" style="text-decoration:none;">Payment</a></p>
+        <p><a href="#" style="text-decoration:none;">Gift card</a></p>
+        <p><a href="#" style="text-decoration:none;">Return</a></p>
+        <p><a href="#" style="text-decoration:none;">Help</a></p>
+      </div>
+
+      <div class="col s4">
+        <h2>Store</h2>
+        <p><i class="fa fa-fw fa-map-marker"></i> BLOOM</p>
+        <p><i class="fa fa-fw fa-phone"></i> 9999999999 </p>
+        <p><i class="fa fa-fw fa-envelope"></i> bloom@mail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> UPI </p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <i class="fa-brands fa-facebook" style="font-size:36px; color:#2e5a97"></i>
+        <i class="fa-brands fa-square-instagram" style="font-size:36px; color:#2e5a97"></i>
+        <i class="fa-brands fa-square-whatsapp" style="font-size:36px; color:#2e5a97"></i>
+        <i class="fa-brands fa-pinterest" style="font-size:36px; color:#2e5a97"></i>
+        <i class="fa-brands fa-square-twitter" style="font-size:36px; color:#2e5a97"></i>
+        <i class="fa-brands fa-linkedin" style="font-size:36px; color:#2e5a97"></i>
+      </div>
+  </footer> 
+    </div>
+
+</div>
+
+</div>
+ 
+ </div>
+ 
+ <!-- Aside Section-->
+ <div class="aside">
+ <img src="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Images\Herbal.png" alt="Herbal" style="width:80px;height:80px;">
+ <p> THE COMPLETE ALL NATURAL HERBAL PRODUCTS </p>
+ <img src="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Images\Clinic.png" alt="Clinic" style="width:80px;height:80px;">
+ <p> NO.1 TRICHOLOGICAL CLINIC IN SOUTH INDIA </p>
+ <img src="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Images\HairANDSkin.png" alt="Hair and Skin" style="width:80px;height:80px;">
+ <p> CARING FOR YOUR HAIR AND SKIN SINCE 1997 </p>
+ <img src="D:\Shilpa\Project-Shopping-Website\Project-Beauty-Product-Shopping-Website\Images\No1.png" alt="No 1" style="width:80px;height:80px;">
+ <p> INDIA'S FIRST UNANI COSMETIC CLINIC </p>
+</div>
+  
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<script>
+const searchBtn = document.querySelector(".search-btn");
+const cancelBtn = document.querySelector(".cancel-btn");
+const searchBox = document.querySelector(".search-box");
+
+searchBtn.onclick = () => {
+  searchBox.classList.add("active");
+}
+
+cancelBtn.onclick = () => {
+  searchBox.classList.remove("active");
+}
+</script>
+
+</body>
+</html>
